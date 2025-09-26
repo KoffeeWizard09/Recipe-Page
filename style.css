@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    min-height: 100dvh;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.image-wrapper {
+  overflow: hidden;
+  padding: 0 0 20px;
+  background: hsl(0, 0%, 100%);
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+
+.head h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.head p {
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+
+.prep {
+    background: hsl(330, 100%, 98%);
+    padding: 20px 30px;
+    margin: 20px 0;
+}
+
+.prep h2 {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit";
+    padding: 0 0 10px 0;
+}
+
+.label {
+    font-family: "Outfit";
+    font-weight: 600;
+}
+
+.prep li {
+    font-family: "Outfit";
+    margin-left: 20px;
+    list-style-position: outside;
+    padding: 5px 0 5px 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+.ing h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding: 0 0 20px 0;
+}
+
+.ing li {
+    font-family: "Outfit";
+    margin-left: 20px;
+    list-style-position: outside;
+    padding: 5px 0 5px 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+.line {
+    height: 0.05rem;
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    margin: 20px 0;
+}
+
+.inst h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding: 0 0 20px 0;
+}
+
+.inst li {
+    font-family: "Outfit";
+    margin-left: 20px;
+    list-style-position: outside;
+    padding: 5px 0 5px 10px;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+
+.nutri h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding: 0 0 20px 0;
+}
+
+.nutri p {
+    font-family: "Outfit";
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    font-family: "Outfit";
+    padding: 10px 30px 10px 50px;
+    color: hsl(24, 5%, 18%);
+    border-bottom: 0.05rem solid hsl(30, 54%, 90%);
+    
+}
+
+.info {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
